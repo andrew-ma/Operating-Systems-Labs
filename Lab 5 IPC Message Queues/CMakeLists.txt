@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(Shared_Memory VERSION 1.0)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(processA processA.c)
+add_executable(processB processB.c)
